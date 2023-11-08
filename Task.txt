@@ -1,0 +1,6 @@
+First I create node project using npm init -y then install express pkg and 
+dotenv and then create files and folder for controller, routes,
+ and write REST APIs (get/update/post/delete) after this I install mongoose cors and bcrypt
+ and write code for signup and signin page for authentication and chk all APIs on postman and 
+ it's working fine and now i can design frontend for these APIs and create simple react app using npx create-react-app client
+  and install axios in it and create pages for APIs implementation.

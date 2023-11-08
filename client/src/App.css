@@ -1,0 +1,78 @@
+.outcard {
+  padding: 25px;
+  margin-left: 22%;
+  width: 50%;
+  box-shadow: 0 1px 2px 1px #ddd;
+  border-radius: 3px;
+
+}
+
+.card {
+  box-shadow: 0 1px 2px 1px #ddd;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #eee;
+}
+.list {
+  margin: 0 10px;
+  background-color: white;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* Styling for the columns (data items) */
+.column {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Styling for the column headers */
+.column strong {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Styling for the logout button */
+button {
+  background-color: #ff4500;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff6347;
+}
+.inputs {
+  width: 93%;
+  color: #444;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 10px 10px;
+}
+
+.btns {
+  background-color: #0050b1;
+  color: #fff;
+  width: 100%;
+  padding: 10px 10px;
+  border-radius: 3px;
+  border: none;
+}
+
+.center {
+  text-align: center;
+}
