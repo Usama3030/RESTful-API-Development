@@ -4,3 +4,4 @@ dotenv and then create files and folder for controller, routes,
  and write code for signup and signin page for authentication and chk all APIs on postman and 
  it's working fine and now i can design frontend for these APIs and create simple react app using npx create-react-app client
   and install axios in it and create pages for APIs implementation.
+  Add some form validation in signup page and implement error handling and authentication in signin page using JWT token.
