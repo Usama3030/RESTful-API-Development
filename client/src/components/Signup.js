@@ -1,11 +1,14 @@
 import { useState } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
+import "./style.css";
 
 function Signup() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
+
+  
 
   const handleSubmit = () => {
     // Basic client-side validation
